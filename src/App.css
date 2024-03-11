@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+header{
+  /* border: solid; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 11.56vh;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+button{
+  cursor: pointer;
+}
+.renderFooter{
+  /* border: solid red; */
+  margin-top: 20px;
+  width: 100%;
+  height: 15vh;
+  background-color: #212121;
+  color: white;
+}

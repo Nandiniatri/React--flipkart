@@ -1,0 +1,218 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.headerImg{
+  /* border: solid; */
+  width: 120px;
+  cursor: pointer;
+}
+.headerLogo{
+  /* border: solid; */
+  margin-left: 100px;
+}
+.search{
+  border: none;
+  height: 40px;
+  width: 200%;
+  padding: 7px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.login{
+  border: none;
+  font-weight:bold;
+  font-size: 15px;
+  /* background-color: rgb(70, 70, 252); */
+  background-color:orange;
+}
+.loginDiv{
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(70, 70, 252); */
+  background-color: orange;
+  height: 40px;
+  width: 85px;
+  border-radius: 5px;
+  position: relative;
+  left: 170px;
+}
+.cartDiv{
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 87px;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+.cartBtn{
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+.spanss{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.becomeASellerDiv{
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 85px;
+  border-radius: 5px;
+  font-size: 13px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  position: relative;
+  right: 70px;
+  padding: 10px;
+}
+.seller{
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+/* SubHeader */
+.subHeaderRenderImg{
+  /* border: solid; */
+  width: 97%;
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 18vh;
+  background-color: white;
+}
+.subHeaderImageDiv{
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/* siderGallery */
+/* .siderGalleryDiv{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+.sliderImg{
+  width: 97%;
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sliderBtns{
+  /* border: solid; */
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: -150px;
+}
+.SliderNextBtn{ 
+  border: none;
+  width: 45px;
+  height: 12vh;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: gray;
+  margin-left: 1130px;
+  border-radius: 6px;
+  background-color: whitesmoke;
+}
+.SliderPrevBtn{
+  border: none;
+  width: 45px;
+  height: 12vh;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: gray;
+  border-radius: 6px;
+  background-color: whitesmoke;
+}
+
+/* AxixBank */
+
+.discountImg{
+  /* border: solid; */
+  width: 97%;
+  margin-left: 20px;
+  margin-top: 85px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* smartPhone */
+.renderSmartPhoneDiv{
+  /* border: solid red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 97%;
+  margin-left: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.smartDIv{
+  border: solid gray 1px;
+  margin-top: 100px;
+  width:20%;
+  margin-left: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.smartPhoneImg{
+  height: 35vh;
+}
+.smartPhnH3{
+  /* border: solid; */
+  position: relative;
+  top: 70px;
+  left: 50px;
+  width: 20%;
+  
+}
+.bannerImages{
+  /* border: solid; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 97%;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.bannerImages Img{
+  width: 32%;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.footerIcon{
+  /* border: solid; */
+  display: flex;
+}
+.footerP{
+  margin-left: 10px;
+}
+.footerDiv{
+  /* border: solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 40px;
+}
